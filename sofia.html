@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="sofia.js" defer></script>
+    <link rel="stylesheet" href="sofia.css"/>
+    <title>Document</title>
+</head>
+
+<body onload="getData()">
+<h1>Our dancers</h1>
+<h3>Search for your next dancers</h3>
+<img src="img/night.jpg" alt="Dansare på en sten i vattnet" >
+   
+<br>
+<fieldset>
+    <legend>Your preferences</legend>
+    <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="0">All</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+<br>
+    <label>Age</label>
+        <select id="age">
+            <option value="0">All</option>
+            <option value="1">20-25 years</option>
+            <option value="2">26-30 years</option>
+            <option value="3">31-35 years</option>
+            <option value="4">36-40 years</option>
+            <option value="5">41-45 years</option>
+        </select>
+<br>
+    <label>Length</label>
+        <select id="length">
+            <option value="0">All</option>
+            <option value="1"> - 165 cm </option>
+            <option value="2">166 - 175 cm</option>
+            <option value="3">176 - 185 cm</option>
+            <option value="4">186+ cm</option>
+        </select>
+<br>
+    <label>Haircolor</label>
+        <select id="hair">
+            <option value="0">All</option>
+            <option value="blond">Blond</option>
+            <option value="brown">Brown</option>
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+        </select>
+<br>
+    <label>Tattoos</label>
+        <select id="tattoos">
+            <option value="0">All</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+<br><br>
+    <button id="btn" >Search</button>
+    <button id="clear">Clear</button>
+    <button id="info">More information</button>
+</fieldset>
+<br><br>
+<ul id="output"></ul>
+<p id="output1"></p>
+
+</body>
+</html>
+
+<!--onclick="test()"-->
