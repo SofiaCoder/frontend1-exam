@@ -1,10 +1,10 @@
 ´´´´´´´´´´´´
-ARCHIVE OF DANCERS
+#ARCHIVE OF DANCERS
 ´´´´´´´´´´´´
     This code is developed for the ability to make an archive of dancers to make it easier for choreographers, producers, director and others to find the type of dancers they need for upcoming projects. The form is based on propertys that is useful for the above proffessions to know about the dancers. This information is carefully chosen with help of active choreographers and producers. 
 
 ´´´´´´´´´´´´´
-THE PROJECT INCLUDES:
+##THE PROJECT INCLUDES:
 ´´´´´´´´´´´´´
     - A json-file with all the dancers and their information saved as objects in an array with the name "users". 
     - A HTML-file with the structure of the page, including the form that we use to choose our propertys that will give you the dancers that matches your criterias.
@@ -13,7 +13,7 @@ THE PROJECT INCLUDES:
     - A map with images.
 
 ´´´´´´´´´´´´´´
-TO RUN THE PROJECT:
+##TO RUN THE PROJECT:
 ´´´´´´´´´´´´´
     1. Add all the above files in one map, also make sure you got the additional map "img" (in your project-map).
     2. Open the file sofia.html in a browser.
