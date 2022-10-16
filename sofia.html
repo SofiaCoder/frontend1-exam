@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="sofia.css"/>
     <title>Document</title>
 </head>
-
+<!--Start the function "getData()" when the page loads-->
 <body onload="getData()">
+
+<!--Heading and picture-->
 <h1>Our dancers</h1>
 <h3>Search for your next dancers</h3>
 <img src="img/night.jpg" alt="Dansare på en sten i vattnet" >
-   
+
+<!--Form for the different properties the user can choose-->
 <br>
 <fieldset>
     <legend>Your preferences</legend>
@@ -59,15 +62,15 @@
             <option value="no">No</option>
         </select>
 <br><br>
+<!--Buttons conected to eventlisteners-->
     <button id="btn" >Search</button>
     <button id="clear">Clear</button>
     <button id="info">More information</button>
 </fieldset>
 <br><br>
+<!--Unordered list and paragraph that puts out the answers-->
 <ul id="output"></ul>
 <p id="output1"></p>
 
 </body>
 </html>
-
-<!--onclick="test()"-->

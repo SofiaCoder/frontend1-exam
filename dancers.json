@@ -299,6 +299,59 @@
       "pastJobs": [" Every Single Broadwaymusical Ever, Original Cast", " Dumma Mig 2", " Kung Fu Panda 1, 2 & 3"],
       "styles": [" Twerking expert", " Salsa"],
       "tattoos": "yes"
+    },
+    {
+      "firstname": "Pam",
+      "lastname": "Paulssen",
+      "gender": "Female",
+      "age": 22,
+      "length": 174,
+      "size": 36,
+      "hair": "black",
+      "shoesize": 38,
+      "pastJobs": [" Little Women", " Nine", " Alice In Wonderland"],
+      "styles": [" Jazz", " Jazzfunk", " Step", " Modern"],
+      "tattoos": "yes"
+    },
+    {
+      "firstname": "Nick",
+      "lastname": "Carter",
+      "gender": "Male",
+      "age": 30,
+      "length": 170,
+      "size": 38,
+      "hair": "blond",
+      "shoesize": 40,
+      "pastJobs": [" Alice In Wonderland", " The Play That Goes Wrong", " Sunset Boulevard"],
+      "styles": [" Jazz", " Hiphop", " House", " Poping"],
+      "tattoos": "no"
+    },
+    {
+      "firstname": "Justin",
+      "lastname": "Timberlakey",
+      "gender": "Male",
+      "age": 34,
+      "length": 178,
+      "size": 36,
+      "hair": "brown",
+      "shoesize": 42,
+      "pastJobs": [" Hairspray", " Les Miserables", " Cats"],
+      "styles": [" Jazz", " Jazzfunk", " Ballet", " Modern"],
+      "tattoos": "yes"
+    },
+    {
+      "firstname": "Fjodor",
+      "lastname": "Fjodovski",
+      "gender": "Male",
+      "age": 44,
+      "length": 187,
+      "size": 40,
+      "hair": "red",
+      "shoesize": 45,
+      "pastJobs": [" Les Miserables", " Titanic", " Cats"],
+      "styles": [" Jazz", " Step", " Ballet", " Modern"],
+      "tattoos": "no"
     }
+
     ]
   }

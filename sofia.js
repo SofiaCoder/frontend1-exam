@@ -28,11 +28,11 @@ function getData() {
 //Filtrerar och skriver ut dansarna utifrån vad användaren väljer i browsern
 function getDancers () {
   const filteredDancers = dancers.filter((person) => {
-    return (person.gender == gender.value &&
-      person.hair == hair.value &&
+    return ((person.gender == gender.value || gender.value == 0) &&
+      (person.hair == hair.value || hair.value == 0)&&
       person.age >= ageRanges[age.value].min && person.age <= ageRanges[age.value].max &&
       person.length >= lengthRange[length.value].min && person.length <= lengthRange[length.value].max &&
-      person.tattoos == tattoos.value)
+      (person.tattoos == tattoos.value || tattoos.value == 0))
       })
       displayPeople = filteredDancers;
 
