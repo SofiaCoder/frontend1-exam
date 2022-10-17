@@ -27,14 +27,12 @@
 >   5. To clear your results, press the "clear"-button.  
 
 
-## WHO WILL HAVE ADVANTAGE OF THIS PROJECT  
+## WHO WILL HAVE ADVANTAGE OF THIS PROJECT:  
 
 > With this code you can get all kinds of different archives of persons or things. You can change the different form-values in the html-file and do the same in the javascript-file.  
 > Lets say you have an archive of different computer models. With this code you can sort out different models depending on what you need or want. 
 > Companies like hemnet, köket.se, H&M, different dejtingsites could have use of this code.  
 
-## FEAUTURE 
+## FEAUTURE DEVELOPMENT OF THIS CODE:  
 
-> For feature work with this code I would add videos with each dancers showreel, and pictures when asking for more information. I would also add different special skills of each dancer and of course make the page better looking. 
-
-
+> For feature work with this code I would add videos with each dancers showreel, and pictures when asking for more information. I would also add different special skills of each dancer and of course make the page better looking.

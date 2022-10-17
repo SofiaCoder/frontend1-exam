@@ -266,10 +266,10 @@
       "lastname": "Sambs",
       "gender": "Female",
       "age": 36,
-      "length": 163,
+      "length": 160,
       "size": 34,
       "hair": "black",
-      "shoesize": 45,
+      "shoesize": 38,
       "pastJobs": [" Alice In Wonderland", " Nine", " Annie Get Your Gun"],
       "styles": [" Jazz", " Jazzfunk", " Modern", " Afrodance"],
       "tattoos": "yes"
@@ -342,7 +342,7 @@
     {
       "firstname": "Fjodor",
       "lastname": "Fjodovski",
-      "gender": "Male",
+      "gender": "Non-binary",
       "age": 44,
       "length": 187,
       "size": 40,
@@ -351,7 +351,19 @@
       "pastJobs": [" Les Miserables", " Titanic", " Cats"],
       "styles": [" Jazz", " Step", " Ballet", " Modern"],
       "tattoos": "no"
+    },
+    {
+      "firstname": "Sinsi",
+      "lastname": "Simbibalis",
+      "gender": "Female",
+      "age": 45,
+      "length": 186,
+      "size": 40,
+      "hair": "red",
+      "shoesize": 42,
+      "pastJobs": [" Aida", " Titanic", " Kung Fu Panda 1, 2 & 3"],
+      "styles": [" Hiphop", " Contemperary", " Musical", " Showdance"],
+      "tattoos": "no"
     }
-
     ]
   }
