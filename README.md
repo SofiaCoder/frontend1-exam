@@ -1,7 +1,7 @@
 
 # ARCHIVE OF DANCERS  
   
-> This code is developed for the ability to make an archive of dancers to make it easier for choreographers, producers, director and others to find > the type of dancers they need for upcoming projects. The form is based on propertys that is useful for the above proffessions to know about the dancers. This information is carefully chosen with help of active choreographers and producers. 
+> This code is developed for the ability to make an archive of dancers to make it easier for choreographers, producers, director and others to find the type of dancers they need for upcoming projects. The form is based on propertys that is useful for the above proffessions to know about the dancers. This information is carefully chosen with help of active choreographers and producers. 
 
 ## THE PROJECT INCLUDES:  
  
