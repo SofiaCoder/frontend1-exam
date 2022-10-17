@@ -1,6 +1,9 @@
 select {vertical-align: text-top; 
     margin: 5px;
 }
+p {
+width: 400px;
+}
 
 fieldset {
     padding: 15px;
