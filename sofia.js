@@ -58,6 +58,7 @@ function getDancers () {
 
   //Ger användaren all information som finns om de personer som valts ut i getDancers()
   function moreInformation() {
+    output1.style="display: block;"
     removeDancers()
     displayPeople.forEach((person) => {
       let info = document.createElement("p")
@@ -81,6 +82,7 @@ function getDancers () {
 function clearAll() {
   output.textContent = '';
   output1.textContent = '';
+  output1.style="display: none;"
 }
 
 //Samtliga knappar med deras funktion
@@ -101,31 +103,34 @@ function removeDancers() {
 
 
 function documentationFunction() {
-  doc.innerHTML =`<p>
+  doc.innerHTML =`<div id="documentDiv"><p>
   This code is developed for the ability to handle an archive of dancers to
   make it easier for choreographers, producers, director and others to
-  find the type of dancers they need for upcoming projects.
+  find the type of dancers they need for upcoming projects. By choosing the criterias down
+  below you get the dancers matching your choises. You can also get all the dancers by just choosing "All"
+  in respective tabs.
 </p>
 <p>
   For some proffessions in the showbiz there is a lot of dancers to consider when choosing
   who to send to which job. With a code like this we can easily pick out the group of dancers
   that would fit for a specific job. <br>
-  For exempel there could be an artist asking for two male dancers
+  For example there could be an artist asking for two male dancers
   of a specific height to match the artists specific vision of the musicvideo. 
   With this form you can put in those values to get the dancers that matches those criterias. <br>
   There could also be choreographers that want dancers with a certain haircolor to a project 
   or dancers of a certain age. There is all kinds of visions to be considered but here it is possible 
-  for some of those visions to easily be fulfilled by finding the right kind of dancers.
+  for some of those visions to easily be fulfilled by finding the right kind of dancer/dancers.
 </p>
 <p>
   This code is built on a json-file with a bunch of different dancers and information about 
   each one of them. An HTML-file builds up the structure of the page and has both a CSS- and 
   a Javascript-file linked to it. 
   The js-file takes all of the registered dancers from the json-file and takes out the different 
-  dancers that matches the criterias chosen by the user in the form on the page. See it for yourself!<br><br>
-  <a href="https://github.com/SofiaCoder/frontend1-exam">Get the code and read more about it in README!</a>
+  dancers that matches the criterias chosen by the user in the form on the page. For more:<br>
+  <a href="https://github.com/SofiaCoder/frontend1-exam">Get the code and read more about the project in README!</a>
 </p>
-<button onclick="clearDocu()">Clear documentation</button>`
+<button onclick="clearDocu()">Clear documentation</button>
+</div>`
 }
 function clearDocu() {
   doc.innerHTML = '';
