@@ -25,7 +25,9 @@
 With this code you can get all kinds of different archives of persons or things. You can change the different form-values in the html-file and do the same in the javascript-file.  
 Lets say you have an archive of different computer models. With this code you can sort out different models depending on what you need or want. 
 Do this:  
-1. Change the form so it matches your title of different choises and options.
-2. 
+1. Make a .json-file wuth all the data you want to be included.
+1. Change the form in the html-file so it matches your title of different choises and options.
+2. If you change the name of the id's, change the matching "document.getElementById" in the js-file.
+3. Change the 
 
 
