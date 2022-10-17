@@ -5,10 +5,10 @@
 
 ## THE PROJECT INCLUDES:  
  
- >   - A json-file with all the dancers and their information saved as objects in an > array with the name "users". 
- >   - A HTML-file with the structure of the page, including the form that we use to > choose our propertys that will give you the dancers that matches your criterias.
+ >   - A json-file with all the dancers and their information saved as objects in an array with the name "users". 
+ >   - A HTML-file with the structure of the page, including the form that we use to choose our propertys that will give you the dancers that matches your criterias.
  >   - A css-file for the style of the page in the browser.
- >   - A javascript-file that manages the json-data along with the options made in > > the browser. 
+ >   - A javascript-file that manages the json-data along with the options made in the browser. 
  >   - A map with images.
 
 
@@ -23,9 +23,9 @@
 
 ## WHO WILL HAVE ADVANTAGE OF THIS PROJECT  
 
-With this code you can get all kinds of different archives of persons or things. You can change the different form-values in the html-file and do the same in the javascript-file.  
-Lets say you have an archive of different computer models. With this code you can sort out different models depending on what you need or want. 
-Companies like hemnet, köket.se, H&M, different dejtingsites could have use of this code.  
+> With this code you can get all kinds of different archives of persons or things. You can change the different form-values in the html-file and do the same in the javascript-file.  
+> Lets say you have an archive of different computer models. With this code you can sort out different models depending on what you need or want. 
+> Companies like hemnet, köket.se, H&M, different dejtingsites could have use of this code.  
 
 
 
