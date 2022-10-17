@@ -26,7 +26,6 @@ function getData() {
     )
 };  
 
-
 //Filtrerar och skriver ut dansarna utifrån vad användaren väljer i browsern
 function getDancers () {
   removeDancers()
@@ -41,17 +40,17 @@ function getDancers () {
       displayPeople = filteredDancers;
 
       filteredDancers.map(person => {
-     const out = document.createElement("li");
-     out.setAttribute("class", "dancers");
-      out.innerHTML = `${person.firstname} ${person.lastname}`
-      output.appendChild(out);
-      noMatch = false
+        const out = document.createElement("li");
+          out.setAttribute("class", "dancers");
+          out.innerHTML = `${person.firstname} ${person.lastname}`
+          output.appendChild(out);
+          noMatch = false
       })
       if (noMatch === true) {
         const out = document.createElement("li");
-     out.setAttribute("class", "dancers");
-      out.innerHTML = `No match was found`
-      output.appendChild(out);
+          out.setAttribute("class", "dancers");
+          out.innerHTML = `No match was found`
+          output.appendChild(out);
       }
   }
 
@@ -86,6 +85,8 @@ btn.addEventListener('click', getDancers)
 btn1.addEventListener('click', clearAll)
 btn2.addEventListener('click', moreInformation)
 
+
+//Rensar skärmen när användaren byter preferenser i formen
 function removeDancers() {
   let removeText = document.querySelectorAll(".dancers")
   removeText.forEach((person) => {
