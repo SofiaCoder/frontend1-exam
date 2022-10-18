@@ -36,3 +36,4 @@
 ## FEAUTURE DEVELOPMENT OF THIS CODE:  
 
 > For feature work with this code I would add videos with each dancers showreel, and pictures when asking for more information. I would also add different special skills of each dancer and of course make the page better looking.
+> We could also add more data that would be interesting for the employer to know, like special skills, education, a full resume and more.
