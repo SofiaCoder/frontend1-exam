@@ -15,16 +15,17 @@
  >   - A HTML-file with the structure of the page, including the form that we use to choose our propertys that will give you the dancers that matches your criterias.
  >   - A css-file for the style of the page in the browser.
  >   - A javascript-file that manages the json-data along with the options made in the browser. 
- >   - A map with images.
+
 
 
 ## TO RUN THE PROJECT:  
 
->   1. Add all the above files in one map, also make sure you got the additional map "img" (in your project-map).
->   2. Open the file sofia.html in a browser.
->   3. Now you can choose the criterias of the dancers you want by clicking your choises in the option-menu and then press search.
+>   1. Add all the above files in one map.
+>   2. Open the file sofia.html in a browser by right-clicking and choosing: "open with..", and then a web browser of your choise.
+>   3. Now you should have the page up. Here you can choose the criterias of the dancers you want by clicking your choises in the option-menu and then press search.
 >   4. For full information of the dancers you've chosen, press "More information".
 >   5. To clear your results, press the "clear"-button.  
+>   6. Enjoy! 
 
 
 ## WHO WILL HAVE ADVANTAGE OF THIS PROJECT:  
